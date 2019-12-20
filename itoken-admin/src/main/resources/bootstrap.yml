@@ -1,0 +1,15 @@
+spring:
+  #从config中心获取配置文件需要名称
+  application:
+    name: itoken-admin
+  cloud:
+    config:
+      #是否开启远程配置，默认true
+      enabled: true
+      #git分支
+      label: master
+      #config中心的地址，默认http://localhost:8888，此处修改为9888端口
+      uri:
+      - http://localhost:9888
+      #激活的profile
+      profile: dev
