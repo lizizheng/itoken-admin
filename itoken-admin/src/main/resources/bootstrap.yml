@@ -10,6 +10,6 @@ spring:
       label: master
       #config中心的地址，默认http://localhost:8888，此处修改为9888端口
       uri:
-      - http://localhost:9888
+      - http://192.168.207.165:9888
       #激活的profile
       profile: dev
